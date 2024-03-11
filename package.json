@@ -1,6 +1,6 @@
 {
   "name": "awesome-react-handy-hooks",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Awesome React Handy Hooks is a collection of custom hooks that can be used in your React applications.",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
