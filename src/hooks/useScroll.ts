@@ -3,8 +3,10 @@
 import { useEffect, useState } from "react";
 
 /**
- * @description Custom hook to detect scroll position
+ * @description The useScroll hook is used to get the scroll position.
  * @returns {object} - Scroll position
+ * @example
+ * const { x, y } = useScroll();
  */
 const useScroll = () => {
   const [scroll, setScroll] = useState({ x: 0, y: 0 });

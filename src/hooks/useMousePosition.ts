@@ -3,8 +3,10 @@
 import { useState, useEffect } from "react";
 
 /**
- * @description Custom hook to manage the mouse position
+ * @description The useMousePosition hook is used to get the current mouse position.
  * @returns {object} - Mouse position state
+ * @example
+ * const { x, y } = useMousePosition();
  */
 
 const useMousePosition = () => {

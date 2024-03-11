@@ -3,7 +3,7 @@
 import { useState } from "react";
 
 /**
- * @description Custom hook to manage a counter
+ * @description The useCounter hook is used to manage a counter state and its functions to increment and decrement it.
  * @param {number} initialValue - Initial value of the counter
  * @returns {object} - Counter state and functions to manage it
  */

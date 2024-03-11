@@ -3,8 +3,10 @@
 import { useState } from "react";
 
 /**
- * @description Custom hook to decode a Base64 string
+ * @description The useBase64Decode hook is used to decode a base64 string.
  * @returns {string} - Decoded string
+ * @example
+ * const { decoded, decode } = useBase64Decode();
  */
 const useBase64Decode = () => {
   const [decoded, setDecoded] = useState<string>("");

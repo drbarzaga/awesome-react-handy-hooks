@@ -3,11 +3,15 @@
 import { useEffect } from "react";
 
 /**
- * @description Custom hook to manage an event listener
+ * @description The useEventListener hook is used to listen for events on an element and call a function when the event is triggered.
  * @param {string} eventName - Name of the event to listen for
  * @param {Function} handler - Function to execute on event
  * @param {any} element - Element to attach the event listener to
  * @returns {void}
+ * @example
+ * useEventListener("click", () => {
+ * console.log("The document was clicked");
+ * }, document);
  */
 
 const useEventListener = (

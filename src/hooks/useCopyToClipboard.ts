@@ -3,8 +3,10 @@
 import { useState } from "react";
 
 /**
- * @description Custom hook to copy a string to the clipboard
+ * @description The useCopyToClipboard hook is used to copy a string to the clipboard.
  * @returns {object} - Copy state and function to copy a string
+ * @example
+ * const { copied, copyToClipboard } = useCopyToClipboard();
  */
 
 const useCopyToClipboard = () => {

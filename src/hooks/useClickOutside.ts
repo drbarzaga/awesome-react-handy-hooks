@@ -3,7 +3,7 @@
 import { useEffect } from "react";
 
 /**
- * @description Custom hook to manage a click outside an element
+ * @description The useClickOutside hook is used to check if the click is outside an element and call a function when it is.
  * @param {HTMLElement} element - Element to check if the click is outside
  * @param {function} callback - Function to call when the click is outside the element
  * @returns {void}

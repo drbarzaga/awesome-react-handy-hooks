@@ -3,9 +3,11 @@
 import { useEffect, useState } from "react";
 
 /**
- * @description Custom hook to manage a media query
+ * @description The useMediaQuery hook is used to check if a media query matches.
  * @param {string} query - Media query to check
  * @returns {boolean} - Boolean indicating if the media query matches
+ * @example
+ * const isMobile = useMediaQuery("(max-width: 768px)");
  */
 
 const useMediaQuery = (query: string): boolean => {

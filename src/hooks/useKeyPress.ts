@@ -3,9 +3,11 @@
 import { useEffect, useState } from "react";
 
 /**
- * @description Custom hook to detect key press
+ * @description The useKeyPress hook is used to detect if a key is pressed.
  * @param {string} targetKey - Key to detect
  * @returns {boolean} - Whether the key is pressed
+ * @example
+ * const isKeyPressed = useKeyPress("a");
  */
 
 const useKeyPress = (targetKey: string) => {

@@ -3,8 +3,10 @@
 import { useState, useEffect } from "react";
 
 /**
- * @description Custom hook to manage the window size
+ * @description The useWindowSize hook is used to get the width and height of the window and update it on resize.
  * @returns {Array<number>} - Width and height of the window
+ * @example
+ * const size = useWindowSize();
  */
 
 const useWindowSize = (): Array<number> => {

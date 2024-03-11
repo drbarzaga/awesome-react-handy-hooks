@@ -3,10 +3,12 @@
 import { useState, useEffect } from "react";
 
 /**
- * @description Custom hook to throttle a value
+ * @description The useThrottle hook is used to throttle a value.
  * @param {any} value - Value to throttle
  * @param {number} delay - Delay in milliseconds
  * @returns {any} - Throttled value
+ * @example
+ * const throttledValue = useThrottle(value, 1000);
  */
 
 const useThrottle = (value: any, delay: number): any => {

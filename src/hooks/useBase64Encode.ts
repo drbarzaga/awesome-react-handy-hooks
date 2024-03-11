@@ -3,8 +3,10 @@
 import { useState } from "react";
 
 /**
- * @description Custom hook to encode a string to Base64
+ * @description The useBase64Encode hook is used to encode a string to base64.
  * @returns {string} - Encoded string
+ * @example
+ * const { encoded, encode } = useBase64Encode();
  */
 
 const useBase64Encode = () => {

@@ -3,9 +3,11 @@
 import { useState, useEffect } from "react";
 
 /**
- * @description Custom hook to manage the loading of a stylesheet
+ * @description The useStyle hook is used to load a stylesheet and manage its loading status.
  * @param {string} href - URL of the stylesheet to load
  * @returns {boolean} - Loading status
+ * @example
+ * const loading = useStyle("https://example.com/style.css");
  */
 
 const useStyle = (href: string): boolean => {

@@ -3,7 +3,7 @@
 import { useState } from "react";
 
 /**
- * @description Custom hook to manage a boolean toggle
+ * @description The useToggle hook is used to manage a toggle state and its function to change it.
  * @param {boolean} initialValue - Initial value of the toggle
  * @returns {object} - Toggle state and function to manage it
  */

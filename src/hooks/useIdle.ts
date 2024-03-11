@@ -3,9 +3,11 @@
 import { useEffect, useState } from "react";
 
 /**
- * @description Custom hook to detect idle state
+ * @description The useIdle hook is used to check if the user is idle.
  * @param {number} delay - Time in milliseconds
  * @returns {boolean} - Idle state
+ * @example
+ * const isIdle = useIdle(1000);
  */
 const useIdle = (delay: number) => {
   const [isIdle, setIsIdle] = useState(false);

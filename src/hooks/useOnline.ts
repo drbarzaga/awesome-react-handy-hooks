@@ -3,8 +3,10 @@
 import { useState, useEffect } from "react";
 
 /**
- * @description Custom hook to manage the online status
+ * @description The useOnline hook is used to check if the user is online.
  * @returns {boolean} - Online status
+ * @example
+ * const online = useOnline();
  */
 
 const useOnline = (): boolean => {

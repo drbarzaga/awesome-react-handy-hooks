@@ -3,10 +3,16 @@
 import { useEffect, useRef } from "react";
 
 /**
- * @description Custom hook to detect long press
+ * @description The useLongPress hook is used to execute a function on long press.
  * @param {function} callback - Function to execute on long press
  * @param {number} duration - Duration of long press
  * @returns {object} - Reference to the element and the event listener
+ * @example
+ * const longPressEvent = useLongPress(() => {
+ * console.log("Long press event");
+ * }, 300);
+ *
+ * <button {...longPressEvent}>Press and hold me</button>
  */
 
 const useLongPress = (callback: () => void, duration: number = 300) => {

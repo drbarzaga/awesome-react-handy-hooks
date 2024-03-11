@@ -3,9 +3,11 @@
 import { useEffect, useState } from "react";
 
 /**
- * @description Custom hook to manage the loading of a script
+ * @description The useScript hook is used to load a script and manage its loading status.
  * @param {string} src - URL of the script to load
  * @returns {boolean} - Loading status
+ * @example
+ * const loading = useScript("https://example.com/script.js");
  */
 const useScript = (src: string): boolean => {
   const [loading, setLoading] = useState(true);

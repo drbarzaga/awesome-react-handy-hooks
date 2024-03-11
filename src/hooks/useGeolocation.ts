@@ -3,8 +3,10 @@
 import { useEffect, useState } from "react";
 
 /**
- * @description Custom hook to detect geolocation
+ * @description The useGeolocation hook is used to get the geolocation of the user.
  * @returns {object} - Geolocation
+ * @example
+ * const { latitude, longitude } = useGeolocation();
  */
 const useGeolocation = () => {
   const [location, setLocation] = useState({

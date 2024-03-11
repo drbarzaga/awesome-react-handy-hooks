@@ -3,9 +3,13 @@
 import { useEffect } from "react";
 
 /**
- * @description Custom hook to manage a focus event
+ * @description The useFocus hook is used to check if the focus is inside an element and call a function when it is.
  * @param {HTMLElement} element - Element to check if the focus is inside
  * @param {function} callback - Function to call when the focus is inside the element
+ * @example
+ * useFocus(element, () => {
+ *  console.log("The focus is inside the element");
+ * });
  * @returns {void}
  */
 const useFocus = (element: HTMLElement, callback: () => void): void => {

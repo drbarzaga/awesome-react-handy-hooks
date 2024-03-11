@@ -3,8 +3,17 @@
 import { useEffect, useState } from "react";
 
 /**
- * @description Custom hook to detect intersection of an element
+ * @description The useIntersectionObserver hook is used to observe an element's intersection details.
  * @returns {object} - Intersection details
+ * @example
+ * const elementRef = useRef(null);
+ * const options = {
+ *  root: null,
+ *  rootMargin: "0px",
+ *  threshold: 1.0,
+ * };
+ *
+ * const intersection = useIntersectionObserver(elementRef, options);
  */
 
 const useIntersectionObserver = (

@@ -3,8 +3,10 @@
 import { useEffect, useState } from "react";
 
 /**
- * @description Custom hook to detect device motion
+ * @description The useDeviceMotion hook is used to get the device motion.
  * @returns {object} - Device motion
+ * @example
+ * const { x, y, z } = useDeviceMotion();
  */
 const useDeviceMotion = () => {
   const [motion, setMotion] = useState({ x: 0, y: 0, z: 0 });
